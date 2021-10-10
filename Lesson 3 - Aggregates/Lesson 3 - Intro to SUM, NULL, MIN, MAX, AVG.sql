@@ -14,7 +14,7 @@ aggregators aggregate verticallin down the cloumn. To add across rows, use simpl
 5. Find the standard_amt_usd per unit of standard_qty paper. Your solution should use both an aggregation and a mathematical operator.
 */
 
-/*1. */ SELECT SUM(poster_qty) AS poster
+/*1. */SELECT SUM(poster_qty) AS poster
 FROM orders;
 
 /*2. */ SELECT SUM(standard_qty) AS standard
