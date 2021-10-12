@@ -18,7 +18,7 @@ SELECT city city_name, LENGTH(city)
                        ORDER BY LENGTH(city), city
                        LIMIT 1
 
-/*  OR*/
+/* ALTERNATIVE ANSWER USING UNION*/
 
 (SELECT city , LENGTH(city)
 FROM station
